@@ -1,0 +1,33 @@
+.section-button {
+    display: block;
+    right: 0;
+    font-size: 20px;
+    margin-top: 10px;
+    background: #fff;
+    padding: 10px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: rgb(3 0 71 / 50%) 0 1px 3px;
+    margin-left: 500px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    max-height: 200px;
+    max-width: 300px;
+}
+
+.section-button button{
+    font-size: 17px;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    width: 230px;
+    cursor: pointer;
+}
+.section-button .valide-C{
+    background-color: red;
+}
+.section-button .continuer{
+    background-color: #271ABD;
+}
+

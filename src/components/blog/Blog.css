@@ -1,0 +1,99 @@
+.btn{
+    margin-top: .5rem;
+    display: inline-block;
+    padding:.5rem 3rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    justify-content: end;
+    border-radius: .5re #130f40;
+    color:#130f40;
+    cursor: pointer;
+    background: none;
+    
+}
+
+.btn:hover{
+    background: rgba(14, 244, 65, 1);
+    color:#fff;
+}
+
+section{
+    padding:2rem 9%;
+    cursor: pointer;
+}
+.blogs .box-blogs{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap:1.5rem;
+}
+
+.blogs .box-blogs .box{
+    overflow: hidden;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    background:#fff;
+}
+
+.blogs .box-blogs .box img{
+    height:18rem;
+    width: 100%;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.blogs .box-blogs .box .content{
+    padding:2rem;
+    display: block;
+}
+
+/*.blogs .box-blogs .box .content .icons{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}*/
+
+.blogs .box-blogs .box .content .icons span{
+    color:#666;
+    font-size: .8rem;
+}
+.blogs .box-blogs .box .content .icons span:hover{
+    color:#130f40;
+}
+
+.blogs .box-blogs .box .content .icons span i{
+    color:rgba(14, 244, 65, 1);
+}
+
+.blogs .box-blogs .box .content h3{
+    line-height: 1.8;
+    margin-top: 20px;
+    color:#130f40;
+    font-size: 1rem;
+    padding:.5rem 0;
+    justify-content: end;
+}
+
+.blogs .box-blogs .box .content p{
+    line-height: 1.8;
+    color:#666;
+    font-size: 1rem;
+    padding:.5rem 0;
+}
+.head-ingredients{
+    color: #423c81;
+    font-size: .8rem;
+}
+.ingredients{
+    color: rgb(23, 18, 18);
+    font-size: .3rem;
+}
+.datablog{
+    margin-top: 50px;
+    line-height: 1.5rem;
+}
+.datablog ul li{
+    list-style: circle;
+}
+.head-ingredients{
+    color: #5c52c5;
+}

@@ -1,0 +1,99 @@
+.box_product{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    gap:1.5rem;
+}
+.slider{
+    width: 95%;
+}
+.ray {
+    margin-top: 2rem;
+}
+.ray-box button{
+    margin-left: 12px;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    box-shadow: rgba(196, 194, 217, 0.5) 0 1px 3px;
+    width: 150px;
+}
+.rayons{
+    position: relative;
+    border-radius: 8px;
+    box-shadow: rgb(3 0 71 / 50%) 0 1px 3px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    max-height: 280px;
+}
+.rayons{
+    position: relative;
+    margin: auto;
+    display: grid;
+}
+.rayons img{
+    width: 290px;
+    height: 160px;
+    border-radius: 10px;
+}
+.rayons div{
+    justify-content: center;
+    text-align: center;
+}
+.rayons .rayName{
+    color: black;
+    position: absolute;
+    top: 35%;
+    left: 13%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+@media (max-width: 770px) {
+    .rayons img{
+        width: 108px;
+        height: 100px;
+    }
+    .rayons .rayName{
+        top: 35%;
+        left: 12%;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+@media (max-width: 650px){
+    .rayons img{
+        width: 90px;
+        height: 95px;
+    }
+    .rayons .rayName{
+        top: 35%;
+        left: 12%;
+        font-size: 14px;
+    }
+}
+@media (max-width: 580px){
+    .rayons img{
+        width: 70px;
+        height: 64px;
+    }
+    .rayons .rayName{
+        top: 35%;
+        left: 12%;
+        font-size: 11px;
+    }
+}
+@media (max-width: 440px){
+    .rayons img{
+        width: 50px;
+        height: 54px;
+    }
+    .rayons .rayName{
+        top: 35%;
+        left: 12%;
+        font-size: 9px;
+    }
+}

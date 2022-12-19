@@ -1,0 +1,17 @@
+.container-1{
+    padding: 2rem;
+    margin-top: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container-1 input{
+    border: none;
+    background-color: rgb(238, 238, 238);
+    height: 2.5rem;
+    width: 60%;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 2em;
+    font-size: 17px;
+}

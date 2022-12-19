@@ -1,0 +1,77 @@
+.page1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.page1 .cover2{
+    background-color: white;
+    width: 30em;
+    height: 35em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.page1 .cover2 input{
+    border: none;
+    background-color: rgb(229,226,226);
+    height: 4em;
+    width: 80%;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 2em;
+    font-size: 15px;
+}
+.page1 .cover2 input:focus{
+    outline-color: rgb(178, 147, 147);
+}
+.page1 .cover2 .login-btn{
+    width: 40%;
+    height: 3em;
+    background-color: rgba(38, 73, 198, 1);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+.page1 .cover2 .login-btn:hover{transform: scale(1.25);}
+.page1 .cover2 .text{
+    position: relative;
+    text-transform: lowercase;
+    text-decoration: underline;
+    
+}
+.hide{
+    display: none;
+}
+.login-popup{
+    position: absolute;
+    height: 20em;
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25em;
+    background-color: white;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+}
+.login-popup h3{
+    font-size: 21px;
+    margin-bottom: 12px;
+    color: red;
+}
+.login-popup p{
+    color: rgb(36, 35, 35);
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
